@@ -1,5 +1,10 @@
 #Command: git filter-branch
 ```
+# example command to split composer/composer doc/ subfolder into a new repository
+$ git filter-branch --prune-empty --subdirectory-filter doc master
+```
+Brief help
+```
 $ git filter-branch [--setup <command>] [--subdirectory-filter <directory>] [--env-filter <command>]
    	[--tree-filter <command>] [--index-filter <command>]
    	[--parent-filter <command>] [--msg-filter <command>]
@@ -35,5 +40,4 @@ $ git archive --remote <repo> [--exec <cmd>] --list
 #Command: git reflog
 ```
 $ git reflog [ show | expire | delete | exists ]
-
 ```

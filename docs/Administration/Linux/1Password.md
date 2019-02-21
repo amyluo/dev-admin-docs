@@ -52,5 +52,5 @@ $ systemctl --user status 1Password.agent.service
 And there you have it…
 
 
----------------------------------------------------------------------
+------------------------------------------------------------------------
 Inspired by [Install 1Password & browser agent with wine on Linux](https://blog.arkey.fr/2015/11/16/1Password-wine/) 

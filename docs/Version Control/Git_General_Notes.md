@@ -63,7 +63,7 @@ $ git commit --auther="FirstName LastName <[email]>"
 #Control git tag
 ```
 # Add an annotation tag locally
-$ git tag -a [tag_name]
+$ git tag -a [tag_name] -m [comment message]
 
 # Check local tag
 $ git tag --points-at
