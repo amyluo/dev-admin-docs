@@ -14,6 +14,7 @@ $ wine ~/.wine/drive_c/Program\ Files\ \(x86\)/1Password\ 4/Agile1pAgent.exe
 ```
 
 Or better with the run 1Password agent with systemd when logging. Create a user systemd unit, let's call it `1Password.agent.service`.
+
 ```
 $ nano $HOME/.config/systemd/user/1Password.agent.service
 ```
