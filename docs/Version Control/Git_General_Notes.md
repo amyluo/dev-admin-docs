@@ -114,3 +114,8 @@ $ git update-index --assume-unchanged [File_Name]
 # And if you want to track the changes again use this command
 $ git update-index --no-assume-unchanged [File_Name]
 ```
+#Push remote branch to another remote
+```
+$ git push backup refs/remotes/upstream/develop:refs/heads/develop
+$ git push backup refs/remotes/upstream/master:refs/heads/master
+```
